@@ -4,9 +4,9 @@
   padding: 2.5rem;
 }
 
-/* .post + .post {
+.post + .post {
   margin-top: 2rem;
-} */
+} 
 
 .content {
   line-height: 1.6;
