@@ -49,7 +49,7 @@
 
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 
   transition: color 0.2s, background-color 0.2s;
 }
@@ -57,4 +57,10 @@
 .sidebar footer a:hover {
   background: var(--green-500);
   color: var(--white);
+}
+
+@media (max-width: 768px) {
+  .sidebar footer a {
+    justify-content: center;
+  }
 }
