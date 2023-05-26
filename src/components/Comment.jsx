@@ -3,13 +3,16 @@ import styles from './Comment.module.css'
 import { Avatar } from './avatar'
 import { useState } from 'react'
 
-export function Comment({ content }){
+export function Comment({ content, onDeleteComment }){
   const [likeNumber, setLikeNumber] = useState(0)
 
   function handleLikeClick() {
     setLikeNumber(likeNumber + 1)
   }
 
+  function handleDeleteComment() {
+    onDeleteComment(content)
+  }
 
   return (
 
@@ -23,7 +26,7 @@ export function Comment({ content }){
               <strong>Gabriel Marinho</strong>
               <time title="11 de Maio as 22:09" dateTime='2022-05-21 22:09:30'>Cerca de 1hr atrás</time>
             </div>
-            <button title="Deletar comentário">
+            <button onClick={handleDeleteComment} title="Deletar comentário">
               <Trash size={24}/>
             </button>
           </header>
