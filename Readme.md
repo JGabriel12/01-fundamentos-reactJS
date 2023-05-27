@@ -1,5 +1,7 @@
 <h1>Fórum com React e JavaScript</h1>
-<o>Este é um fórum simples desenvolvido com React e JavaScript. Ele permite que os usuários participem de discussões através de postagens e comentários. <strong>Esse fórum foi desenvolvido a proposito de estudo de react da trilha ignite da rocketseat</strong></p>
+<o>Este é um fórum simples desenvolvido com React e JavaScript. Ele permite que os usuários participem de discussões através de postagens e comentários.</p>
+
+<strong>\* Esse fórum foi desenvolvido a proposito de estudo de react da trilha ignite da rocketseat</strong>
 
 <h1>Funcionalidades</h1>
 
