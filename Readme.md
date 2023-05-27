@@ -6,9 +6,14 @@
 <h1>Funcionalidades</h1>
 
 <p>Visualização de postagens: Os usuários podem ver as postagens existentes no fórum.
+
 Criação de postagens: Os usuários podem criar novas postagens, adicionando um título e um conteúdo.
+
 Comentários: Os usuários podem comentar em postagens existentes.
-Atualizações em tempo real: As postagens e comentários são atualizados em tempo real à medida que são adicionados.</p>
+
+Atualizações em tempo real: As postagens e comentários são atualizados em tempo real à medida que são adicionados.
+
+</p>
 
 <h1>Tecnologias Utilizadas</h1>
 
@@ -46,7 +51,7 @@ npm install
 Inicie o servidor de desenvolvimento:
 
 ```
-npm start
+npm run dev
 ```
 
 Abra o navegador e acesse http://localhost:5173 para ver o fórum em execução localmente.
